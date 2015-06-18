@@ -29,7 +29,7 @@ func root(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	
+
 
 	if err := readingTemplate.Execute(w, readings); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
