@@ -1,2 +1,3 @@
 # sensorservice
-Go endpoint to capture data from DIY sensors in my home.
+Go endpoint service to capture data from DIY sensors in my home.
+
